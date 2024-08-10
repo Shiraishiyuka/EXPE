@@ -19,3 +19,4 @@ Route::get('/', function () {
 });
 
 Route::get('/hello',[AdovanceController::class, 'index']);
+Route::get('/test', [AdovanceController::class, 'up']);
